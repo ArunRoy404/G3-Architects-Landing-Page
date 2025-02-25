@@ -178,3 +178,24 @@ nav{
 .fact{
     margin: 100px 0px;
 }
+
+
+/* sponsors section  */
+.sponsors{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.sponsors p{
+    width: 550px;
+    margin: 30px auto;
+}
+
+.sponsors img{
+    filter: grayscale(100%);
+}
+
+.sponsors-img{
+    display: flex;
+    justify-content: space-between;
+}
+
