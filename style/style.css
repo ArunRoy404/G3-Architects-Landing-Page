@@ -256,3 +256,48 @@ footer{
         margin-bottom: 60px;
     }
 }
+
+
+/*Medium Device responsive  */
+@media screen and (min-width:576px) and (max-width: 1200px) {
+    header, main{
+        padding: 0px 50px;
+    }
+    
+    p, .fact p, .sponsors p{
+        width: 100%;
+    }
+
+    .features1, .features2{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .team-img-container, .facts-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .feature-container{
+        max-width: 100%;
+    }
+    .exp{
+        margin: -150px 0px 0px;
+    }
+    .feature-img{
+        text-align: center;
+    }
+    .fact-box{
+        width: auto;
+    }
+    .sponsors-img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0px auto;
+        gap: 20px;
+    }
+    .sponsors, footer{
+        margin-bottom: 80px;
+    }
+    footer{
+        max-width: 700px;
+    }
+}
