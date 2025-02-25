@@ -32,11 +32,14 @@ p{
     border: none;
 }
 
-.banner-container{
+.banner-container, main{
     max-width: 1440px;
     margin: 0px auto;
 }
 
+main{
+    margin-top: 70px;
+}
 /* navbar  */
 nav{
     display: flex;
@@ -75,4 +78,24 @@ nav{
 }
 .banner img{
     width: 100%;
+}
+
+
+/* features section  */
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.feature-detail{
+    max-width: 550px;
+    gap: 50px;
+}
+.feature-detail p{
+    margin: 30px 0px;
 }
