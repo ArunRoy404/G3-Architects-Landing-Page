@@ -87,15 +87,68 @@ nav{
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
 }
-.features{
+.features1{
     display: flex;
     align-items: center;
-    gap: 100px;
+    justify-content: space-around;
 }
 .feature-detail{
     max-width: 550px;
     gap: 50px;
 }
+.list-word{
+    color: rgb(114, 114, 114);
+}
+.feature-word{
+    color: rgb(255, 144, 14);
+}
 .feature-detail p{
     margin: 30px 0px;
+}
+
+
+/* features2 section  */
+.feature-container h1{
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.feature-box h4{
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.feature-box{
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+.feature-container{
+    max-width: 50%;
+}
+.feature-img img{
+    width: 100%;
+}
+.features2{
+    margin-top: 130px;
+    display: flex;
+    gap: 140px;
+}
+.exp{
+    padding: 45px 42px ;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    margin-left: -100px;
+    margin-top: -150px;
+}
+.exp span{
+    font-size: 1.56rem;
+    font-weight: 500;
 }
