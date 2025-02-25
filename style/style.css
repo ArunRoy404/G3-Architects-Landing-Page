@@ -222,7 +222,7 @@ footer{
         width: calc(100% - 40px);
     }
     
-    p, .fact p, .sponsors p{
+    .banner p, .fact p, .sponsors p{
         width: 100%;
     }
 
@@ -252,8 +252,11 @@ footer{
         margin: 0px auto;
         gap: 20px;
     }
-    .sponsors, footer{
+    .sponsors{
         margin-bottom: 60px;
+    }
+    footer{
+        padding: 20px;
     }
 }
 
