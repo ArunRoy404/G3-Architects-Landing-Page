@@ -204,3 +204,55 @@ footer{
     padding: 40px;
     margin-bottom: 200px;
 }
+
+
+
+
+
+/* mobile responsive  */
+@media screen and (max-width:575px) {
+    header, main, footer{
+        padding: 0px 20px;
+    }
+
+    nav{
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        gap: 20px;
+        width: calc(100% - 40px);
+    }
+    
+    p, .fact p, .sponsors p{
+        width: 100%;
+    }
+
+    .features1, .features2{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .team-img-container, .facts-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .feature-container{
+        max-width: 100%;
+    }
+    .exp{
+        margin: 0px;
+    }
+    .feature-img{
+        text-align: center;
+    }
+    .fact-box{
+        width: auto;
+    }
+    .sponsors-img{
+        flex-direction: column;
+        width: 50%;
+        margin: 0px auto;
+        gap: 20px;
+    }
+    .sponsors, footer{
+        margin-bottom: 60px;
+    }
+}
