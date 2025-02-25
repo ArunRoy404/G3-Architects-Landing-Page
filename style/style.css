@@ -1,3 +1,9 @@
+.work-sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,12 +14,12 @@
 }
 .title{
     color: rgb(19, 19, 19);
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 p{
     color: rgb(114, 114, 114);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 .btn{
@@ -21,6 +27,52 @@ p{
     background: rgb(255, 144, 14);
     padding: 20px 25px;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
+    border: none;
+}
+
+.banner-container{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+/* navbar  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 0px;
+}
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner section  */
+.banner h1{
+    font-size: 4rem;
+}
+.banner p{
+    width: 850px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.banner img{
+    width: 100%;
 }
