@@ -32,7 +32,7 @@ p{
     border: none;
 }
 
-.banner-container, main{
+.banner-container, main, footer{
     max-width: 1440px;
     margin: 0px auto;
 }
@@ -199,3 +199,8 @@ nav{
     justify-content: space-between;
 }
 
+footer{
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 200px;
+}
